@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo';
-  public msg = "Hello Child";
-  public message = "";
+  public msg = "Hello Child"; //dataFromParent message
+  public message = ""; //childEvent message
 }
